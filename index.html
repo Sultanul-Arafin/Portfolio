@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Engineer Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f1f1;
+            color: #333;
+        }
+        header {
+            background-color: #2C3E50;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            font-weight: bold;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .about, .skills, .projects, .contact {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #2C3E50;
+            border-bottom: 2px solid #2980B9;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .skills ul, .projects ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li, .projects li {
+            background-color: #ecf0f1;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s;
+        }
+        .skills li:hover, .projects li:hover {
+            background-color: #2980B9;
+            color: white;
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        footer {
+            background-color: #2C3E50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Md Sultanul Arafin</h1>
+    <p>Software Engineer | Java Developer</p>
+</header>
+
+<div class="container">
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Md Sultanul Arafin, a passionate software engineer with 1 year of experience in Java development. I specialize in creating scalable and efficient applications. I'm constantly learning and improving my skills to stay up-to-date with the latest technologies.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Java Programming</li>
+            <li>Spring Boot</li>
+            <li>SQL & Database Management</li>
+            <li>RESTful API Development</li>
+            <li>Version Control (Git)</li>
+            <li>Problem-Solving</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <h3>Project 1: E-Commerce Website</h3>
+                <p>A fully functional e-commerce website built using Java, Spring Boot, and MySQL. The website allows users to browse products, add them to the cart, and make secure payments.</p>
+            </li>
+            <li>
+                <h3>Project 2: Employee Management System</h3>
+                <p>A Java-based application to manage employee records. It includes functionalities like adding, updating, and deleting employee data, with a user-friendly interface.</p>
+            </li>
+            <li>
+                <h3>Project 3: Personal Blog Platform</h3>
+                <p>A personal blog platform where users can create, edit, and delete blog posts. It uses Java, Spring Boot, and a relational database to store blog data.</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me for any inquiries or collaboration opportunities!</p>
+        <button id="emailButton">Email Me</button>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 Md Sultanul Arafin | All Rights Reserved</p>
+</footer>
+
+<script>
+    // JavaScript to handle email button click
+    document.getElementById("emailButton").addEventListener("click", function() {
+        window.location.href = "mailto:sultan@example.com";
+    });
+
+    // Additional functionality can be added here, such as form validation, smooth scroll, etc.
+    console.log("Portfolio loaded successfully!");
+</script>
+
+</body>
+</html>
